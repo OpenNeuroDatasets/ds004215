@@ -1,9 +1,0 @@
-1.0.3 2023-11-28
-  - Fixing metadata formatting issues
-1.0.2 2023-01-19
-  - The channels.tsv files were corrected. Older versions of MNE BIDS ignored channels files but recent versions of MNE BIDS' reading function requires accurate channels information.
-1.0.1 2022-09-26
-  - Updating T1w JSON sidecars of subjects with `AnatomicalLandmarkCoordinates` field with MEG and MRI data associated with them.
-  - Adding saggital MPRAGE acquisition's protocol PDF to sourcedata directory.
-1.0.0 2022-07-21
-  - Initial Release
