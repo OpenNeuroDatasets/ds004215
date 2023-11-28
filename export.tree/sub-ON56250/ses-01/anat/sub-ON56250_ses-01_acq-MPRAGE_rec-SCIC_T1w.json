@@ -1,0 +1,72 @@
+{
+    "Modality": "MR",
+    "MagneticFieldStrength": 3,
+    "ImagingFrequency": 127.824,
+    "Manufacturer": "GE",
+    "ManufacturersModelName": "DISCOVERY MR750",
+    "InstitutionName": "NIH FMRIF",
+    "DeviceSerialNumber": "000301496mr3T5mr",
+    "StationName": "FMRI3ta",
+    "BodyPartExamined": "BRAIN",
+    "PatientPosition": "HFS",
+    "ProcedureStepDescription": "MRI Brain",
+    "SoftwareVersions": "27\\LX\\MR Software release:DV26.0_R03_1831.b",
+    "MRAcquisitionType": "3D",
+    "SeriesDescription": "Anat T1w MP-RAGE 1mm (ABCD)",
+    "ProtocolName": "ADNI3 FMRIF Enhanced Pro",
+    "ScanningSequence": "RM",
+    "SequenceVariant": "NONE",
+    "ScanOptions": "EDR_GEMS\\PROMO_GEMS\\FILTERED_GEMS\\ACC_GEMS\\IR_GEMS",
+    "ImageType": [
+        "ORIGINAL",
+        "PRIMARY",
+        "OTHER"
+    ],
+    "SeriesNumber": 3,
+    "AcquisitionTime": "09:32:23.000000",
+    "AcquisitionNumber": 1,
+    "SliceThickness": 1,
+    "SpacingBetweenSlices": 1,
+    "SAR": 0.0976713,
+    "EchoTime": 0.00292,
+    "RepetitionTime": 0.006952,
+    "InversionTime": 1.06,
+    "FlipAngle": 8,
+    "CoilString": "32Ch Head",
+    "PercentPhaseFOV": 100,
+    "PercentSampling": 100,
+    "AcquisitionMatrixPE": 256,
+    "ReconMatrixPE": 256,
+    "ParallelReductionFactorInPlane": 2,
+    "ParallelReductionOutOfPlane": 2,
+    "PixelBandwidth": 244.141,
+    "ImageOrientationPatientDICOM": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        -1
+    ],
+    "InPlanePhaseEncodingDirectionDICOM": "ROW",
+    "ConversionSoftware": "dcm2niix",
+    "ConversionSoftwareVersion": "v1.0.20211006",
+    "Dcm2bidsVersion": "2.1.6",
+    "AnatomicalLandmarkCoordinates": {
+        "NAS": [
+            95.13459737548828,
+            208.38159768066407,
+            121.1638020751953
+        ],
+        "LPA": [
+            33.28849737548828,
+            118.99999768066407,
+            81.00000207519531
+        ],
+        "RPA": [
+            162.4465973754883,
+            120.18069768066407,
+            78.41550207519532
+        ]
+    }
+}

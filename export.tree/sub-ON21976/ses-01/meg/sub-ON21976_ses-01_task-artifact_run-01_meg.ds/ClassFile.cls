@@ -1,0 +1,1 @@
+../../../../.git/annex/objects/vw/m6/SHA256E-s302--2dbb1ae18368caf151e6d2823090202f46224791769927a0dabedabdc9d52cb2.cls/SHA256E-s302--2dbb1ae18368caf151e6d2823090202f46224791769927a0dabedabdc9d52cb2.cls

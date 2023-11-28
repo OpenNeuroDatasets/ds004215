@@ -1,0 +1,1 @@
+../../../../.git/annex/objects/XK/M8/SHA256E-s300--ce4acf5dc424480de88ffdeb41cccebc36c528ff0d7beb795c2b36b0e68ce233.cls/SHA256E-s300--ce4acf5dc424480de88ffdeb41cccebc36c528ff0d7beb795c2b36b0e68ce233.cls

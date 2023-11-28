@@ -1,0 +1,1 @@
+../../../../.git/annex/objects/G7/3J/SHA256E-s300--bc25df8f139de496a17f1d426004b2d8cc01a4e30c58dccd517a18a4fe2b6f7e.cls/SHA256E-s300--bc25df8f139de496a17f1d426004b2d8cc01a4e30c58dccd517a18a4fe2b6f7e.cls

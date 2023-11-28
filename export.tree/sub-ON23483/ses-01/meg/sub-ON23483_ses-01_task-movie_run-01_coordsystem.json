@@ -1,0 +1,45 @@
+{
+    "MEGCoordinateSystem": "CTF",
+    "MEGCoordinateUnits": "cm",
+    "HeadCoilCoordinates": {
+        "NAS": [
+            6.87443,
+            5.72172,
+            -23.9923
+        ],
+        "LPA": [
+            -3.80157,
+            5.50116,
+            -26.747
+        ],
+        "RPA": [
+            4.80563,
+            -4.21876,
+            -27.3271
+        ]
+    },
+    "HeadCoilCoordinateSystem": "CTF",
+    "HeadCoilCoordinateUnits": "cm",
+    "HeadCoilCoordinateSystemDescription": "Axes orientation is ALS; DEWAR",
+    "IntendedFor": "/data/NIMH_ses-01_T1w.nii",
+    "AnatomicalLandmarkCoordinates": {
+        "NAS": [
+            -4.209999,
+            -121.139,
+            5.289398
+        ],
+        "LPA": [
+            62.99,
+            -40.9818,
+            -28.461
+        ],
+        "RPA": [
+            -67.81,
+            -43.09119,
+            -25.29691
+        ]
+    },
+    "AnatomicalLandmarkCoordinateSystem": "Other",
+    "AnatomicalLandmarkCoordinateUnits": "mm",
+    "AnatomicalLandmarkCoordinateSystemDescription": "LPS is the anatomical coordinate system"
+}

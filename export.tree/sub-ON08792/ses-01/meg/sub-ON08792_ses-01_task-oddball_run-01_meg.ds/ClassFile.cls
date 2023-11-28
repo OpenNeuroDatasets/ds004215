@@ -1,0 +1,1 @@
+../../../../.git/annex/objects/08/3V/SHA256E-s301--5dc4fbf0a0ec1e186a6e7a4c3fb4a687b7201b8faee5cc0d7094a3536943ad5b.cls/SHA256E-s301--5dc4fbf0a0ec1e186a6e7a4c3fb4a687b7201b8faee5cc0d7094a3536943ad5b.cls
