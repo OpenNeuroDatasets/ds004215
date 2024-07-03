@@ -10,18 +10,19 @@ This dataset is licensed under the [Creative Commons Zero (CC0) v1.0 License](ht
 
 ### Release v2.0.0
 
-The v2.0.0 dataset release includes data collected since 2020-06-03 (cut-off date for v1.0.0). Notable changes in this release:
+This release includes data collected between 2020-06-03 (cut-off date for v1.0.0) and 2024-04-01. Notable changes in this release:
 
-1. Phenotype files now have two new columns `visit` and `age_at_visit` to distinguish between various visits, and intervals between visits. 
-2. Follow-up online survey data included.
-3. Replaced Beck Anxiety Inventory (BAI) and Beck Depression Inventory-II (BDI-II) with General Anxiety Disorder-7 (GAD7) and Patient Health Questionnaire 9 (PHQ9) surveys, respectively.
-4. Discontinued the Perceived Health rating survey.
-5. Added Brief Trauma Questionnaire (BTQ) and Big Five personality survey to online screening questionnaires.
-6. MRI:
-   - Replaced ADNI-3 resting state sequence with a multi-echo sequence with higher spatial resolution.
-   - Replaced field map scans with a shorter reversed-blipped EPI scan.
-7. MEG:
-   - Some participants have 6-minute empty room data instead of the shorter duration empty room acquisition.
+  1. 769 new participants have been added along with re-evaluation data for 15 participants. Total unique participants count is now 1859.  
+  2. `visit` and `age_at_visit` columns added to phenotype files to distinguish between visits and intervals between them.
+  3. Follow-up online survey data included.
+  4. Replaced Beck Anxiety Inventory (BAI) and Beck Depression Inventory-II (BDI-II) with General Anxiety Disorder-7 (GAD7) and Patient Health Questionnaire 9 (PHQ9) surveys, respectively.
+  5. Discontinued the Perceived Health rating survey.
+  6. Added Brief Trauma Questionnaire (BTQ) and Big Five personality survey to online screening questionnaires.
+  7. MRI:
+    - Replaced ADNI-3 resting state sequence with a multi-echo sequence with higher spatial resolution.
+    - Replaced field map scans with a shorter reversed-blipped EPI scan.
+  8. MEG:
+    - Some participants have 6-minute empty room data instead of the shorter duration empty room acquisition.
 
 See the [CHANGES](./CHANGES.txt) file for complete version-wise changelog.
 
