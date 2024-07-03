@@ -1,10 +1,30 @@
-# The National Institute of Mental Health (NIMH) Intramural Healthy Volunteer Dataset
+# The National Institute of Mental Health (NIMH) Research Volunteer (RV) Data Set
 
 A comprehensive dataset characterizing healthy research volunteers in terms of clinical assessments, mood-related psychometrics, cognitive function neuropsychological tests, structural and functional magnetic resonance imaging (MRI), along with diffusion tensor imaging (DTI), and a comprehensive magnetoencephalography battery (MEG).
 
 In addition, blood samples are currently banked for future genetic analysis.  All data collected in this protocol are broadly shared in the OpenNeuro repository, in the Brain Imaging Data Structure (BIDS) format.  In addition, task paradigms and basic pre-processing scripts are shared on GitHub.  This dataset is unprecedented in its depth of characterization of a healthy population and will allow a wide array of investigations into normal cognition and mood regulation.
 
 This dataset is licensed under the [Creative Commons Zero (CC0) v1.0 License](https://creativecommons.org/publicdomain/zero/1.0/).
+
+## Release Notes
+
+### Release v2.0.0
+
+The v2.0.0 dataset release includes data collected since 2020-06-03 (cut-off date for v1.0.0). Notable changes in this release:
+
+1. Phenotype files now have two new columns `visit` and `age_at_visit` to distinguish between various visits, and intervals between visits. 
+2. Follow-up online survey data included.
+3. Replaced Beck Anxiety Inventory (BAI) and Beck Depression Inventory-II (BDI-II) with General Anxiety Disorder-7 (GAD7) and Patient Health Questionnaire 9 (PHQ9) surveys, respectively.
+4. Discontinued the Perceived Health rating survey.
+5. Added Brief Trauma Questionnaire (BTQ) and Big Five personality survey to online screening questionnaires.
+6. MRI:
+   - Replaced ADNI-3 resting state sequence with a multi-echo sequence with higher spatial resolution.
+   - Replaced field map scans with a shorter reversed-blipped EPI scan.
+7. MEG:
+   - Some participants have 6-minute empty room data instead of the shorter duration empty room acquisition.
+
+See the [CHANGES](./CHANGES.txt) file for complete version-wise changelog.
+
 
 ## Participant Eligibility
 
@@ -38,7 +58,8 @@ The MRI protocol used was initially based on the ADNI-3 basic protocol, but was 
 
 ### MEG
 
-The optional MEG studies were added to the protocol approximately one year after the study was initiated, thus there are relatively fewer MEG recordings in comparison to the MRI dataset.  MEG studies are performed on a 275 channel CTF MEG system.  The position of the head was localized at the beginning and end of the recording using three fiducial coils.  These coils were placed 1.5 cm above the nasion, and at each ear, 1.5 cm from the tragus on a line between the tragus and the outer canthus of the eye.  For some participants, photographs were taken of the three coils and used to mark the points on the T1 weighted structural MRI scan for co-registration.  For the remainder of the participants, a BrainSight neuronavigation unit was used to coregister the MRI, anatomical fiducials, and localizer coils directly prior to MEG data acquisition.
+The optional MEG studies were added to the protocol approximately one year after the study was initiated, thus there are relatively fewer MEG recordings in comparison to the MRI dataset.  MEG studies are performed on a 275 channel CTF MEG system.  The position of the head was localized at the beginning and end of the recording using three fiducial coils.  These coils were placed 1.5 cm above the nasion, and at each ear, 1.5 cm from the tragus on a line between the tragus and the outer canthus of the eye.  For some participants, photographs were taken of the three coils and used to mark the points on the T1 weighted structural MRI scan for co-registration.  For the remainder of the participants, a BrainSight neuro-navigation unit was used to coregister the MRI, anatomical fiducials, and localizer coils directly prior to MEG data acquisition.
+
 
 ## Specific Survey and Test Data within Data Set
 
@@ -47,6 +68,8 @@ The optional MEG studies were added to the protocol approximately one year after
 |  Survey or Test                                                             |  BIDS TSV Name                 |
 | --------------------------------------------------------------------------- | ------------------------------ |
 |  Alcohol Use Disorders Identification Test (AUDIT)                          |  audit.tsv                     |
+|  Brief Trauma Questionnaire (BTQ)                                           |  btq.tsv                       |
+|  Big-Five Personality                                                       |  big_five_personality.tsv      |
 |  Demographics                                                               |  demographics.tsv              |
 |  Drug Use Questionnaire                                                     |  drug_use.tsv                  |
 |  Edinburgh Handedness Inventory (EHI)                                       |  ehi.tsv                       |
@@ -64,8 +87,10 @@ The optional MEG studies were added to the protocol approximately one year after
 |  Beck Depression Inventory-II (BDI-II)                                                       |  bdi.tsv                      |
 |  Clinical Variable Form                                                                      |  clinical_variable_form.tsv   |
 |  Family Interview for Genetic Studies (FIGS)                                                 |  figs.tsv                     |
+|  General Anxiety Disorder-7 (GAD7)                                                           |  gad7.tsv                     |
 |  Kaufman Brief Intelligence Test 2nd Edition (KBIT-2) and Vocabulary Assessment Scale (VAS)  |  kbit2_vas.tsv                |
 |  NIH Toolbox Cognition Battery                                                               |  nih_toolbox.tsv              |
+|  Patient Health Questionnaire 9                                                              |  phq9.tsv                     |
 |  Perceived Health Rating                                                                     |  perceived_health_rating.tsv  |
 |  Satisfaction Survey                                                                         |  satisfaction.tsv             |
 |  Structured Clinical Interview for DSM-5 Disorders (SCID-5)                                  |  scid5.tsv                    |
@@ -89,6 +114,7 @@ The optional MEG studies were added to the protocol approximately one year after
 |  Survey         |  BIDS TSV Name      |
 | --------------- | ------------------- |
 |  MRI Variables  |  mri_variables.tsv  |
+
 
 ## Preparation Notes
 
@@ -114,6 +140,52 @@ We used the `heudiconv` tool to convert MRI DICOM files to BIDS-standard files w
 
 Each participant received either the ADNI3 or the ABCD protocol, not both, during their MRI/MEG visit.  T1w scans with acquisition label `fspgr` are ADNI3 protocol sequence and scans with `mprage` acquisition labels are ABCD protocol sequence.
 
-### Protocol PDFs
+### OpenNeuro BIDS File/Folder Tree
 
-GE MRI scanner protocol PDFs are located within the `sourcedata/` folder, named after their BIDS tree file names.  In the parameter called "Auto SCIC", if it is set to 2 then both "Orig" (original) and "SCIC" (GE’s proprietary Surface Coil Intensity Correction algorithm) images are created.  Therefore one PDF with an Auto SCIC setting of "2" represents two images in the dataset.
+Below is a BIDS-compliant file/folder tree as it appears for subjects on OpenNeuro.
+
+```shell
+sub-ON<subject>
+    └── ses-01
+        ├── anat
+        │   └── sub-ON<subject>_ses-01_acq-<desc>_run-<index>_<suffix>.<json|nii.gz>
+        ├── asl
+        │   └── sub-ON<subject>_ses-01_run-<index>_asl.<json|nii.gz>
+        ├── dwi
+        │   └── sub-ON<subject>_ses-01_run-<index>_dwi.<bvec|bval|json|nii.gz>
+        ├── fmap
+        │   └── sub-ON<subject>_ses-01_acq-<desc>_dir-<direction>_run-<index>_epi.<bvec|bval|json|nii.gz>
+        ├── func
+        │   └── sub-ON<subject>_ses-01_task-<taskname>_run-<index>_<suffix>.<json|nii.gz>
+        ├── meg
+        │   ├── sub-ON<subject>_ses-01_task-<taskname>_run-01_<meg|coordsystem>.json
+        │   ├── sub-ON<subject>_ses-01_task-<taskname>_run-01_<channels|events>.tsv
+        │   └── sub-ON<subject>_ses-01_task-<taskname>_run-01_meg.ds
+        │       ├── BadChannels
+        │       ├── bad.segments
+        │       ├── ClassFile.cls
+        │       ├── MarkerFile.mrk
+        │       ├── params.dsc
+        │       ├── processing.cfg
+        │       ├── sub-ON<subject>_ses-01_task-<taskname>_run-01_meg.<extension>
+        │       └── sub-ON<subject>_ses-01_task-<taskname>_run-01.xml
+        └── sub-ON<subject>_ses-01_scans.<json|tsv>
+```
+
+Definitions:
+
+- `<subject>` = subject number
+- `<taskname>` = task name: `airpuff`, `artifact`, `gonogo`, `haririhammer`, `movie`, `oddball`, `sternberg`
+- `<desc>` = placeholder for acquisition label for a given suffix
+- `<direction>` = flipped, unflipped
+- `<index>` = run number/index
+- `<suffix>` = placeholder to indicate the scan type
+    - `T1w`: `<desc>` = `fspgr`, `mprage`, `fse`, `highreshippo`
+    - `T2w`: `<desc>` = `abcdcube`, `cube`, `frfse`
+    - `FLAIR`: `<desc>` = `adni2d`, `2d`, `3d`, `t2`
+    - `epi`: `<desc>` = `dwib1000`, `dwi`, `resting`
+    - `T2star`
+    - `bold`
+    - `meg`
+    - `asl`
+- `<extension>`: indicates meg data files' type = `acq`, `bak`, `hc`, `hist`, `infods`, `meg4`, `newds`, `res4`, `xml`
