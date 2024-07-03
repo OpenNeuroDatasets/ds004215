@@ -1,2 +1,2 @@
-participant_id	RPR SYPHILIS SERO TITER
-sub-ON88871	NON-REACTIVE
+participant_id	visit	age_at_visit	RPR SYPHILIS SERO TITER
+sub-ON88871	baseline	20	NON-REACTIVE

@@ -1,8 +1,10 @@
-participant_id	VITAMIN B12 PG/ML	VITAMIN D,  25-HYDROXY TOTAL NG/ML
-sub-ON22662	-999	19
-sub-ON23483	-999	55
-sub-ON30535	240	16
-sub-ON62003	597	-999
-sub-ON63211	448	-999
-sub-ON69092	635	-999
-sub-ON88871	986	-999
+participant_id	visit	age_at_visit	VITAMIN B12 PG/ML	VITAMIN D,  25-HYDROXY TOTAL NG/ML
+sub-ON22662	baseline	37	-999	19
+sub-ON23483	baseline	21	-999	55
+sub-ON30535	baseline	26	240	16
+sub-ON62003	baseline	64	597	-999
+sub-ON63211	baseline	35	448	-999
+sub-ON69092	baseline	28	635	-999
+sub-ON88871	baseline	20	986	-999
+sub-ON96240	baseline	36	-999	42
+sub-ON97523	baseline	44	-999	15

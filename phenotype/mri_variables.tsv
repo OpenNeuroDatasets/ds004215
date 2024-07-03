@@ -1,91 +1,188 @@
-participant_id	PREGNANCY_TEST	MENSTRUAL_CYCLES_LENGTH	CAFFEINE	CAFFEINE_RECENT	NICOTINE	NICOTINE_RECENT	SLEEP_HOURS	WAKE_TIME
-sub-ON01802	2	-999	1	2	0	-999	6	04:30
-sub-ON02693	2	-999	1	0	0	-999	8	07:30
-sub-ON02747	2	-999	0	-999	0	-999	7	08:00
-sub-ON02811	2	-999	1	4	0	-999	6	06:40
-sub-ON03748	-999	-999	0	-999	0	-999	3	03:00
-sub-ON05530	0	-999	1	4	0	-999	7	05:30
-sub-ON07392	0	3	1	5	0	-999	10	08:00
-sub-ON08155	2	-999	0	-999	0	-999	7	06:50
-sub-ON08792	0	-999	1	6	0	8	-999	08:00
-sub-ON09474	0	2	1	6	0	-999	8	09:00
-sub-ON09664	2	-999	1	3	0	-999	8	07:00
-sub-ON09821	2	-999	1	1	0	-999	7	07:30
-sub-ON11111	2	-999	0	-999	0	-999	6	06:00
-sub-ON11411	0	2	1	-999	0	-999	7	04:55
-sub-ON12688	2	-999	1	5	0	-999	8	07:45
-sub-ON13545	0	2	1	6	0	-999	8	07:30
-sub-ON18047	0	2	1	0	0	-999	6	05:45
-sub-ON21834	0	2	0	-999	0	-999	7	07:00
-sub-ON21959	0	2	1	0	0	-999	7	07:15
-sub-ON21976	0	2	1	2	0	-999	6	05:30
-sub-ON22299	0	2	1	7	0	-999	7	07:30
-sub-ON23419	2	-999	0	-999	0	-999	5	05:00
-sub-ON23776	0	2	0	-999	0	-999	8	07:00
-sub-ON25939	2	-999	1	5	0	-999	9	08:30
-sub-ON26105	0	2	0	-999	0	-999	8	07:00
-sub-ON26309	0	-999	1	0	0	-999	8	05:30
-sub-ON30080	2	-999	1	3	0	-999	6	7:30
-sub-ON34754	0	2	1	0	0	-999	8	08:00
-sub-ON34766	-999	-999	1	4	0	-999	9	07:00
-sub-ON35773	2	-999	1	4	0	-999	6	09:00
-sub-ON39099	2	-999	0	-999	0	-999	5	07:00
-sub-ON39384	0	2	1	5	0	-999	7	08:00
-sub-ON41090	0	2	0	-999	0	-999	6	06:00
-sub-ON42107	0	2	1	4	0	-999	9	05:40
-sub-ON43016	0	2	0	-999	0	-999	7	05:20
-sub-ON43585	0	2	0	-999	0	-999	4	13:00
-sub-ON44262	2	-999	0	-999	0	-999	7	07:00
-sub-ON46717	0	2	1	0	0	-999	6	07:30
-sub-ON48925	0	2	1	4	0	-999	6	07:15
-sub-ON49080	0	2	0	-999	0	-999	6	07:30
-sub-ON50015	0	2	0	-999	0	-999	7	07:30
-sub-ON52083	0	2	0	-999	0	-999	8	05:00
-sub-ON52662	0	2	1	6	0	-999	1	08:30
-sub-ON52733	2	-999	1	-999	0	-999	8	06:30
-sub-ON52992	-999	-999	0	-999	0	-999	4	06:00
-sub-ON54268	2	-999	1	5	0	-999	7	08:30
-sub-ON54886	2	-999	1	5	0	-999	7	07:30
-sub-ON56044	0	1	0	-999	0	-999	8	8:00 AM
-sub-ON56250	0	2	0	-999	0	-999	6	06:30
-sub-ON58053	0	2	1	5	0	-999	7	07:30
-sub-ON61087	0	2	0	-999	0	-999	7	06:00
-sub-ON62003	2	-999	1	5	0	-999	7	06:30
-sub-ON63704	0	-999	1	1	0	-999	7	06:00
-sub-ON63734	-999	2	1	0	0	-999	8	07:30
-sub-ON65733	0	2	0	-999	0	-999	7	06:30
-sub-ON66199	2	-999	1	5	0	-999	7	09:30
-sub-ON67435	2	-999	1	2	0	-999	8	08:00
-sub-ON70467	2	-999	1	0	0	-999	6	05:30
-sub-ON71932	2	-999	1	1	0	-999	7	06:30
-sub-ON72082	2	-999	0	-999	0	-999	4	10:00
-sub-ON73969	-999	-999	0	-999	0	-999	6	05:30
-sub-ON75450	2	-999	1	0	0	-999	8	08:00
-sub-ON80356	0	2	1	6	0	-999	7	07:30
-sub-ON81734	2	-999	0	-999	0	-999	7	05:15
-sub-ON84896	2	-999	1	5	0	-999	7	07:00
-sub-ON85305	0	2	0	-999	0	-999	7	07:00 AM
-sub-ON85322	2	-999	0	-999	0	-999	6	05:30
-sub-ON85522	0	2	0	-999	0	-999	5	08:00
-sub-ON85616	0	2	0	-999	0	-999	10	06:00
-sub-ON85981	2	-999	1	5	0	-999	7	07:00
-sub-ON86202	2	2	1	10	0	-999	7	07:00
-sub-ON87092	0	-999	1	0	0	-999	7	06:15
-sub-ON87322	2	-999	0	-999	0	-999	7	06:00
-sub-ON88331	2	-999	1	6	0	-999	8	06:00
-sub-ON88614	0	-999	0	-999	0	-999	6	05:15
-sub-ON88753	2	-999	1	6	0	-999	6	06:50
-sub-ON89045	2	-999	1	7	0	-999	7	05:20
-sub-ON89474	0	2	0	-999	0	-999	7	08:00
-sub-ON89475	0	2	1	5	0	-999	7	07:00
-sub-ON91906	2	-999	1	-999	0	-999	7	06:00
-sub-ON93426	0	2	1	7	0	-999	7	07:30
-sub-ON94856	2	-999	1	5	0	-999	7	07:30
-sub-ON95003	0	2	0	-999	0	-999	8	08:30
-sub-ON95259	0	2	0	-999	0	-999	6	07:00
-sub-ON95422	-999	-999	1	8	0	-999	4	15:30
-sub-ON95742	0	2	1	3	0	-999	8	09:00
-sub-ON97504	0	2	1	7	1	-999	7	06:00
-sub-ON98642	2	-999	0	-999	0	-999	8	07:30
-sub-ON99610	2	-999	0	-999	0	-999	7	7
-sub-ON99620	2	-999	1	3	0	-999	6	06:00
+participant_id	visit	age_at_visit	PREGNANCY_TEST	MENSTRUAL_CYCLES_LENGTH	CAFFEINE	CAFFEINE_RECENT	NICOTINE	NICOTINE_RECENT	SLEEP_HOURS	WAKE_TIME
+sub-ON00400	baseline	22	2	-999	0	-999	0	-999	6	7:30
+sub-ON00830	baseline	26	0	3	1	3	0	-999	8	8:45
+sub-ON01802	baseline	30	2	-999	1	2	0	-999	6	04:30
+sub-ON02693	baseline	30	2	-999	1	0	0	-999	8	07:30
+sub-ON02747	baseline	54	2	-999	0	-999	0	-999	7	08:00
+sub-ON02811	baseline	49	2	-999	1	4	0	-999	6	06:40
+sub-ON03748	baseline	22	-999	-999	0	-999	0	-999	3	03:00
+sub-ON04111	baseline	39	0	2	0	-999	0	-999	6	06:30
+sub-ON05530	baseline	29	0	-999	1	4	0	-999	7	05:30
+sub-ON06421	baseline	26	0	2	1	4	0	-999	8	6:45
+sub-ON07392	baseline	30	0	3	1	5	0	-999	10	08:00
+sub-ON08155	baseline	22	2	-999	0	-999	0	-999	7	06:50
+sub-ON08710	baseline	46	0	2	1	6	0	-999	7	6:45
+sub-ON08710	baseline	46	0	2	1	5	0	-999	8	7:00
+sub-ON08760	baseline	48	0	2	1	9	0	-999	5	05:30
+sub-ON08792	baseline	23	0	-999	1	6	0	8	-999	08:00
+sub-ON09474	baseline	29	0	2	1	6	0	-999	8	09:00
+sub-ON09540	baseline	50	0	2	0	-999	0	-999	9	07:45
+sub-ON09540	baseline	50	0	2	0	-999	0	-999	8	07:00
+sub-ON09664	baseline	26	2	-999	1	3	0	-999	8	07:00
+sub-ON09681	baseline	32	2	-999	1	5	0	-999	9	7:0
+sub-ON09760	baseline	37	2	-999	1	3	0	-999	7	6:30
+sub-ON09766	baseline	33	0	2	1	0	0	-999	7	8:00
+sub-ON09821	baseline	62	2	-999	1	1	0	-999	7	07:30
+sub-ON11111	baseline	60	2	-999	0	-999	0	-999	6	06:00
+sub-ON11411	baseline	47	0	2	1	-999	0	-999	7	04:55
+sub-ON12688	baseline	36	2	-999	1	5	0	-999	8	07:45
+sub-ON13545	baseline	36	0	2	1	6	0	-999	8	07:30
+sub-ON18047	baseline	40	0	2	1	0	0	-999	6	05:45
+sub-ON21834	baseline	22	0	2	0	-999	0	-999	7	07:00
+sub-ON21959	baseline	44	0	2	1	0	0	-999	7	07:15
+sub-ON21976	baseline	49	0	2	1	2	0	-999	6	05:30
+sub-ON22299	baseline	36	0	2	1	7	0	-999	7	07:30
+sub-ON23419	baseline	52	2	-999	0	-999	0	-999	5	05:00
+sub-ON23776	baseline	45	0	2	0	-999	0	-999	8	07:00
+sub-ON25939	baseline	43	2	-999	1	5	0	-999	9	08:30
+sub-ON26105	baseline	28	0	2	0	-999	0	-999	8	07:00
+sub-ON26309	baseline	30	0	-999	1	0	0	-999	8	05:30
+sub-ON30080	baseline	29	2	-999	1	3	0	-999	6	7:30
+sub-ON33221	baseline	27	0	2	1	5	0	-999	7	07:00
+sub-ON34754	baseline	26	0	2	1	0	0	-999	8	08:00
+sub-ON34766	baseline	26	-999	-999	1	4	0	-999	9	07:00
+sub-ON35773	baseline	35	2	-999	1	4	0	-999	6	09:00
+sub-ON39099	baseline	20	2	-999	0	-999	0	-999	5	07:00
+sub-ON39384	baseline	26	0	2	1	5	0	-999	7	08:00
+sub-ON39384	re-evaluation	28	0	2	1	9	0	-999	7	07:30
+sub-ON41090	baseline	42	0	2	0	-999	0	-999	6	06:00
+sub-ON42107	baseline	22	0	2	1	4	0	-999	9	05:40
+sub-ON43016	baseline	48	0	2	0	-999	0	-999	7	05:20
+sub-ON43210	baseline	22	2	-999	0	-999	0	-999	8	7:45
+sub-ON43585	baseline	22	0	2	0	-999	0	-999	4	13:00
+sub-ON44262	baseline	51	2	-999	0	-999	0	-999	7	07:00
+sub-ON46717	baseline	49	0	2	1	0	0	-999	6	07:30
+sub-ON48925	baseline	37	0	2	1	4	0	-999	6	07:15
+sub-ON49080	baseline	22	0	2	0	-999	0	-999	6	07:30
+sub-ON50015	baseline	22	0	2	0	-999	0	-999	7	07:30
+sub-ON51111	baseline	27	0	2	1	8	0	-999	7	07:30
+sub-ON52083	baseline	21	0	2	0	-999	0	-999	8	05:00
+sub-ON52220	baseline	23	2	-999	0	-999	0	-999	6	7:00
+sub-ON52220	baseline	23	0	2	0	-999	0	-999	6	5:30
+sub-ON52662	baseline	33	0	2	1	6	0	-999	1	08:30
+sub-ON52733	baseline	24	2	-999	1	-999	0	-999	8	06:30
+sub-ON52992	baseline	24	-999	-999	0	-999	0	-999	4	06:00
+sub-ON53213	baseline	41	2	-999	0	-999	0	-999	6	5:30
+sub-ON54268	baseline	22	2	-999	1	5	0	-999	7	08:30
+sub-ON54886	baseline	65	2	-999	1	5	0	-999	7	07:30
+sub-ON56044	baseline	28	0	1	0	-999	0	-999	8	8:00 AM
+sub-ON56250	baseline	22	0	2	0	-999	0	-999	6	06:30
+sub-ON58053	baseline	33	0	2	1	5	0	-999	7	07:30
+sub-ON61087	baseline	25	0	2	0	-999	0	-999	7	06:00
+sub-ON62003	baseline	64	2	-999	1	5	0	-999	7	06:30
+sub-ON62200	baseline	24	0	2	1	5	0	-999	7	05:00
+sub-ON63221	baseline	47	2	-999	1	2	0	-999	9	6:30 am
+sub-ON63704	baseline	42	0	-999	1	1	0	-999	7	06:00
+sub-ON63734	baseline	25	-999	2	1	0	0	-999	8	07:30
+sub-ON64410	baseline	32	0	2	1	10	0	-999	7	6:45
+sub-ON65232	baseline	26	2	-999	0	-999	0	-999	8	9:00
+sub-ON65403	baseline	24	2	-999	1	5	0	-999	8	6:30
+sub-ON65412	baseline	22	0	2	0	-999	0	-999	7	8:30
+sub-ON65733	baseline	21	0	2	0	-999	0	-999	7	06:30
+sub-ON66199	baseline	35	2	-999	1	5	0	-999	7	09:30
+sub-ON66243	baseline	28	0	2	0	-999	0	-999	9	7:15
+sub-ON66401	baseline	24	0	2	0	-999	0	-999	7	8:00
+sub-ON66452	baseline	60	2	-999	1	1	0	-999	8	10:30
+sub-ON67435	baseline	64	2	-999	1	2	0	-999	8	08:00
+sub-ON70467	baseline	25	2	-999	1	0	0	-999	6	05:30
+sub-ON71932	baseline	29	2	-999	1	1	0	-999	7	06:30
+sub-ON72082	baseline	62	2	-999	0	-999	0	-999	4	10:00
+sub-ON73200	baseline	38	2	-999	1	3	0	-999	8	6:30
+sub-ON73969	baseline	22	-999	-999	0	-999	0	-999	6	05:30
+sub-ON74320	baseline	43	0	2	0	-999	0	-999	9	7:00
+sub-ON75100	baseline	47	2	-999	0	-999	0	-999	8	09:45
+sub-ON75413	baseline	22	2	-999	0	-999	0	-999	8	6:20
+sub-ON75450	baseline	37	2	-999	1	0	0	-999	8	08:00
+sub-ON76144	baseline	37	0	2	0	-999	0	-999	8	7:30
+sub-ON76320	baseline	40	2	-999	1	6	0	-999	8	6:00
+sub-ON76625	baseline	32	2	-999	0	-999	0	-999	8	07:00
+sub-ON77753	baseline	32	2	-999	1	3	0	-999	7	8:15
+sub-ON80356	baseline	22	0	2	1	6	0	-999	7	07:30
+sub-ON81734	baseline	38	2	-999	0	-999	0	-999	7	05:15
+sub-ON83320	baseline	52	2	-999	1	3	0	-999	5	7:00
+sub-ON84201	baseline	38	2	-999	1	0	0	-999	7	07:00
+sub-ON84896	baseline	44	2	-999	1	5	0	-999	7	07:00
+sub-ON85010	baseline	33	2	-999	0	-999	0	-999	3	8:00
+sub-ON85301	baseline	36	2	-999	1	3	0	-999	7	9:00
+sub-ON85305	baseline	32	0	2	0	-999	0	-999	7	07:00 AM
+sub-ON85322	baseline	63	2	-999	0	-999	0	-999	6	05:30
+sub-ON85330	baseline	19	2	-999	1	4	0	-999	7	9:00
+sub-ON85400	baseline	32	2	-999	0	-999	0	-999	7	7:00
+sub-ON85514	baseline	42	0	2	1	1	0	-999	8	7:30
+sub-ON85522	baseline	45	0	2	0	-999	0	-999	5	08:00
+sub-ON85616	baseline	41	0	2	0	-999	0	-999	10	06:00
+sub-ON85981	baseline	71	2	-999	1	5	0	-999	7	07:00
+sub-ON86202	baseline	29	2	2	1	10	0	-999	7	07:00
+sub-ON86350	baseline	42	0	2	1	3	0	-999	8	6:45
+sub-ON87092	baseline	37	0	-999	1	0	0	-999	7	06:15
+sub-ON87253	baseline	42	2	-999	0	-999	0	-999	7	7:30
+sub-ON87304	baseline	44	0	2	0	-999	0	-999	8	6:30
+sub-ON87322	baseline	45	2	-999	0	-999	0	-999	7	06:00
+sub-ON87362	baseline	34	0	2	0	-999	0	-999	8	06:30
+sub-ON87455	baseline	26	2	-999	0	-999	0	-999	7	8:30
+sub-ON87616	baseline	27	0	2	0	-999	0	-999	6	06:00
+sub-ON87631	baseline	24	0	2	0	-999	0	-999	8	6:00
+sub-ON87642	baseline	36	2	-999	0	-999	0	-999	8	06:00
+sub-ON87655	baseline	39	2	-999	1	3	0	-999	8	08:30
+sub-ON87725	baseline	27	2	-999	1	3	0	-999	7	8:15
+sub-ON87725	baseline	27	2	-999	0	-999	0	-999	5	6:00
+sub-ON87743	baseline	35	0	2	1	9	0	-999	7	6:30
+sub-ON87777	baseline	35	2	-999	1	2	0	-999	8	10:00
+sub-ON88331	baseline	52	2	-999	1	6	0	-999	8	06:00
+sub-ON88512	baseline	31	0	-999	0	-999	0	-999	6	6:30
+sub-ON88555	baseline	27	2	-999	0	-999	0	-999	9	7:40
+sub-ON88614	baseline	49	0	-999	0	-999	0	-999	6	05:15
+sub-ON88700	baseline	23	2	-999	0	-999	0	-999	8	06:30
+sub-ON88753	baseline	30	2	-999	1	6	0	-999	6	06:50
+sub-ON88762	baseline	30	0	-999	1	3	0	-999	7	6:00
+sub-ON89045	baseline	49	2	-999	1	7	0	-999	7	05:20
+sub-ON89474	baseline	36	0	2	0	-999	0	-999	7	08:00
+sub-ON89475	baseline	23	0	2	1	5	0	-999	7	07:00
+sub-ON91906	baseline	42	2	-999	1	-999	0	-999	7	06:00
+sub-ON92220	baseline	23	0	2	0	-999	0	-999	7	7:00
+sub-ON93222	baseline	30	0	2	1	10	0	-999	8	07:30
+sub-ON93426	baseline	24	0	2	1	7	0	-999	7	07:30
+sub-ON93503	baseline	33	2	-999	1	5	0	-999	8	7:30
+sub-ON94110	baseline	39	2	-999	1	4	0	-999	7	8:00
+sub-ON94131	baseline	63	2	-999	1	3	0	-999	5	08:15
+sub-ON94856	baseline	54	2	-999	1	5	0	-999	7	07:30
+sub-ON95003	baseline	23	0	2	0	-999	0	-999	8	08:30
+sub-ON95214	baseline	23	0	2	1	6	0	-999	7	7:00
+sub-ON95259	baseline	21	0	2	0	-999	0	-999	6	07:00
+sub-ON95422	baseline	28	-999	-999	1	8	0	-999	4	15:30
+sub-ON95520	baseline	28	2	-999	1	3	0	-999	8	08:30
+sub-ON95742	baseline	34	0	2	1	3	0	-999	8	09:00
+sub-ON96240	baseline	36	0	2	1	-999	0	-999	7	6:00
+sub-ON96251	baseline	46	0	1	0	-999	0	-999	7	07:00
+sub-ON96252	baseline	21	2	1	1	5	0	-999	7	7:30
+sub-ON96353	baseline	46	0	2	1	5	0	-999	8	7:15
+sub-ON96440	baseline	29	0	2	1	3	0	-999	8	07:00
+sub-ON96510	baseline	41	0	2	1	4	0	-999	7	7:00
+sub-ON96530	baseline	33	0	2	0	-999	0	-999	8	07:00
+sub-ON96555	baseline	45	0	2	1	5	0	-999	7	7:00
+sub-ON96565	baseline	55	2	-999	1	4	0	-999	7	04:30
+sub-ON96602	baseline	28	0	2	1	2	0	-999	8	07:30
+sub-ON96641	baseline	31	2	-999	1	3	0	-999	8	06:00
+sub-ON97054	baseline	33	0	-999	1	3	0	-999	6	6:00
+sub-ON97252	baseline	33	0	2	1	5	0	-999	6	5:30
+sub-ON97427	baseline	23	2	-999	1	4	0	-999	7	6:45
+sub-ON97503	baseline	53	0	3	1	7	0	-999	7	6:15
+sub-ON97504	baseline	23	0	2	1	7	1	-999	7	06:00
+sub-ON97515	baseline	42	0	2	1	7	0	-999	7	05:00
+sub-ON97526	baseline	34	0	1	0	-999	0	-999	8	8:30
+sub-ON97604	baseline	26	0	2	1	2	0	-999	9	07:00
+sub-ON97654	baseline	37	2	-999	0	-999	0	-999	7	5:30
+sub-ON98130	baseline	35	0	2	0	-999	0	-999	7	06:00
+sub-ON98175	baseline	43	0	1	0	-999	0	-999	7	6:30
+sub-ON98502	baseline	38	2	-999	0	-999	0	-999	8	9:00
+sub-ON98642	baseline	28	2	-999	0	-999	0	-999	8	07:30
+sub-ON98664	baseline	22	2	-999	0	-999	0	-999	7	05:00
+sub-ON98826	baseline	31	0	-999	0	5	0	-999	8	06:30
+sub-ON98866	baseline	42	0	2	0	-999	0	-999	6	05:00
+sub-ON99547	baseline	22	2	-999	0	-999	0	-999	7	7:30
+sub-ON99610	baseline	36	2	-999	0	-999	0	-999	7	7
+sub-ON99620	baseline	59	2	-999	1	3	0	-999	6	06:00
+sub-ON99633	baseline	23	0	2	0	-999	0	-999	7	7:30
+sub-ON99703	baseline	24	2	-999	0	-999	0	-999	6	07:28
+sub-ON99731	baseline	58	0	2	0	-999	0	-999	6	7:00
+sub-ON99943	baseline	38	0	2	1	6	0	-999	8	07:00

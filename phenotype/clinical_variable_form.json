@@ -2,6 +2,13 @@
     "participant_id": {
         "Description": "OpenNeuro ID of the subject."
     },
+    "visit": {
+        "Description": "Type of in-person visit.",
+        "Levels": {
+            "baseline": "First in-person visit.",
+            "re-evaluation": "Second in-person visit."
+        }
+    },
     "NEW_SUBJECT_NIH": {
         "LongName": "NEW_SUBJECT_NIH (question ID 223580)",
         "Description": "New to NIH",
