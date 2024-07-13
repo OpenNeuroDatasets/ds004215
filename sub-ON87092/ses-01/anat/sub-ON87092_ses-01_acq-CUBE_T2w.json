@@ -1,7 +1,7 @@
 {
     "Modality": "MR",
     "MagneticFieldStrength": 3,
-    "ImagingFrequency": 127.824,
+    "ImagingFrequency": 127.823837,
     "Manufacturer": "GE",
     "ManufacturersModelName": "DISCOVERY MR750",
     "InstitutionName": "NIH FMRIF",
@@ -17,6 +17,7 @@
     "ScanningSequence": "RM",
     "SequenceVariant": "NONE",
     "ScanOptions": "SAT_GEMS\\EDR_GEMS\\PROMO_GEMS\\ACC_GEMS\\FS\\FR_GEMS",
+    "PulseSequenceName": "3dfse",
     "ImageType": [
         "ORIGINAL",
         "PRIMARY",
@@ -31,6 +32,12 @@
     "EchoTime": 0.066629,
     "RepetitionTime": 3.202,
     "FlipAngle": 90,
+    "ShimSetting": [
+        0,
+        3,
+        -22
+    ],
+    "PrescanReuseString": "TG/s1,RN/s1",
     "CoilString": "32Ch Head",
     "PercentPhaseFOV": 100,
     "PercentSampling": 100,
@@ -38,7 +45,7 @@
     "AcquisitionMatrixPE": 256,
     "ReconMatrixPE": 256,
     "ParallelReductionFactorInPlane": 2,
-    "ParallelReductionOutOfPlane": 1.5,
+    "ParallelReductionFactorOutOfPlane": 1.5,
     "PixelBandwidth": 244.141,
     "PhaseEncodingAxis": "i",
     "ImageOrientationPatientDICOM": [
@@ -50,7 +57,11 @@
         -1
     ],
     "InPlanePhaseEncodingDirectionDICOM": "ROW",
+    "BidsGuess": [
+        "anat",
+        "_acq-3DFSEp2_run-40004_T2w"
+    ],
     "ConversionSoftware": "dcm2niix",
-    "ConversionSoftwareVersion": "v1.0.20211006",
-    "Dcm2bidsVersion": "2.1.6"
+    "ConversionSoftwareVersion": "v1.0.20240202",
+    "Dcm2bidsVersion": "3.1.1"
 }

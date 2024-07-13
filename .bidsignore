@@ -1,2 +1,3 @@
-phenotype/*
-sub-*/ses-*/perf/
+phenotype/
+sub-ON*/*/anat/*desc-*
+sub-ON*/*/perf/

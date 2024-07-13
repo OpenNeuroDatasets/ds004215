@@ -1,0 +1,7 @@
+﻿onset	duration	trial_type	value	sample
+0.0825	0.0	blink	1	99
+4.133333333333334	0.0	eyemoveHoriz	3	4960
+8.166666666666666	0.0	eyemoveVert	4	9800
+12.2325	0.0	jawclench	5	14679
+16.265833333333333	0.0	swallow	6	19519
+20.299166666666668	0.0	breath	2	24359

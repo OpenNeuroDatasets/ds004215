@@ -1,9 +1,8 @@
 {
     "Modality": "MR",
     "MagneticFieldStrength": 3,
-    "ImagingFrequency": 127.824,
+    "ImagingFrequency": 127.82392,
     "Manufacturer": "GE",
-    "PulseSequenceName": "epi",
     "InternalPulseSequenceName": "EPI",
     "ManufacturersModelName": "DISCOVERY MR750",
     "InstitutionName": "NIH FMRIF",
@@ -11,7 +10,7 @@
     "StationName": "FMRI3ta",
     "BodyPartExamined": "BRAIN",
     "PatientPosition": "HFS",
-    "ProcedureStepDescription": "MRI Brain",
+    "ProcedureStepDescription": "MRI BrainGradient Echo",
     "SoftwareVersions": "27\\LX\\MR Software release:DV26.0_R03_1831.b",
     "MRAcquisitionType": "2D",
     "SeriesDescription": "Axial rsfMRI reverse blip - RKV",
@@ -19,6 +18,7 @@
     "ScanningSequence": "EP\\GR",
     "SequenceVariant": "SS",
     "ScanOptions": "MP_GEMS\\EPI_GEMS\\PFF",
+    "PulseSequenceName": "epi",
     "ImageType": [
         "ORIGINAL",
         "PRIMARY",
@@ -35,6 +35,11 @@
     "RepetitionTime": 3,
     "FlipAngle": 90,
     "PhaseEncodingPolarityGE": "Flipped",
+    "ShimSetting": [
+        0,
+        2,
+        -19
+    ],
     "CoilString": "32Ch Head",
     "PercentPhaseFOV": 100,
     "PercentSampling": 100,
@@ -103,8 +108,12 @@
         0
     ],
     "InPlanePhaseEncodingDirectionDICOM": "COL",
+    "BidsGuess": [
+        "func",
+        "_acq-EPI_dir-PA_run-11_bold"
+    ],
     "ConversionSoftware": "dcm2niix",
-    "ConversionSoftwareVersion": "v1.0.20211006",
-    "Dcm2bidsVersion": "2.1.6",
+    "ConversionSoftwareVersion": "v1.0.20240202",
+    "Dcm2bidsVersion": "3.1.1",
     "TaskName": "Resting state with reverse blip."
 }
