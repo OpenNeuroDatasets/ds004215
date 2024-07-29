@@ -35,11 +35,11 @@ To be eligible for the study, participants need to be medically healthy adults o
 
 All potential volunteers visit [the study website](https://nimhresearchvolunteer.ctss.nih.gov), check a box indicating consent, and fill out preliminary screening questionnaires.  The questionnaires include basic demographics, the World Health Organization Disability Assessment Schedule 2.0 (WHODAS 2.0), the DSM-5 Self-Rated Level 1 Cross-Cutting Symptom Measure, the DSM-5 Level 2 Cross-Cutting Symptom Measure - Substance Use, the Alcohol Use Disorders Identification Test (AUDIT), the Edinburgh Handedness Inventory, and a brief clinical history checklist.  The WHODAS 2.0 is a 15 item questionnaire that assesses overall general health and disability, with 14 items distributed over 6 domains: cognition, mobility, self-care, “getting along”, life activities, and participation.  The DSM-5 Level 1 cross-cutting measure uses 23 items to assess symptoms across diagnoses, although an item regarding self-injurious behavior was removed from the online self-report version.  The DSM-5 Level 2 cross-cutting measure is adapted from the NIDA ASSIST measure, and contains 15 items to assess use of both illicit drugs and prescription drugs without a doctor’s prescription.  The AUDIT is a 10 item screening assessment used to detect harmful levels of alcohol consumption, and the Edinburgh Handedness Inventory is a systematic assessment of handedness.  These online results do not contain any personally identifiable information (PII).  At the conclusion of the questionnaires, participants are prompted to send an email to the study team. These results are reviewed by the study team, who determines if the participant is appropriate for an in-person interview.
 
-Participants who meet all inclusion/exclusion criteria are scheduled for an in-person screening visit.  At this visit, participants receive a Structured Clinical Interview for DSM-5 Disorders (SCID-5), the Beck Depression Inventory-II (BDI-II), Beck Anxiety Inventory (BAI), the Kaufman Brief Intelligence Test, Second Edition (KBIT-2), and the NIH Toolbox Cognition Battery.  The purpose of these cognitive and psychometric tests is two-fold.  First, these measures are designed to provide a sensitive test of psychopathology.  Second, they provide a comprehensive picture of cognitive functioning, including mood regulation.  The SCID-5 is a structured interview, administered by a clinician, that establishes the absence of any DSM-5 axis I disorder.  The BDI-II is a 21 item self-report measure that assesses the presence and severity of depressive symptoms, while the BAI is a 21 item self-report measure assessing the presence and severity of anxiety symptoms.  The KBIT-2 is a brief (20 minute) assessment of intellectual functioning administered by a trained examiner.  There are three subtests, including verbal knowledge, riddles, and matrices.  The NIH Toolbox Cognition Battery consists of a series of seven tests.  A flanker inhibitory control and attention task assesses the constructs of attention and executive functioning.  Executive functioning is also assessed in the battery using a dimensional change card sort test.  Episodic memory is evaluated using a picture sequence memory test, while working memory is evaluated using a list sorting test.  The battery includes two language tests, a picture vocabulary test and an oral reading recognition test.  Finally, processing speed is assessed using a pattern comparison processing speed test.
+Participants who meet all inclusion criteria are scheduled for an in-person screening visit to determine if there are any further exclusions to participation.  At this visit, participants receive a History and Physical exam, Structured Clinical Interview for DSM-5 Disorders (SCID-5), the Beck Depression Inventory-II (BDI-II), Beck Anxiety Inventory (BAI), and the Kaufman Brief Intelligence Test, Second Edition (KBIT-2).  The purpose of these cognitive and psychometric tests is two-fold.  First, these measures are designed to provide a sensitive test of psychopathology.  Second, they provide a comprehensive picture of cognitive functioning, including mood regulation.  The SCID-5 is a structured interview, administered by a clinician, that establishes the absence of any DSM-5 axis I disorder.  The KBIT-2 is a brief (20 minute) assessment of intellectual functioning administered by a trained examiner.  There are three subtests, including verbal knowledge, riddles, and matrices.  
 
 ## Biological and physiological measures
 
-Biological and physiological measures are acquired, including blood pressure, pulse, weight, height, and BMI.  Blood and urine samples are taken and a complete blood count, acute care panel, hepatic panel, thyroid stimulating hormone, viral markers (HCV, HBV, HIV), c-reactive protein, creatine kinase, urine drug screen and urine pregnancy tests are performed.  In addition, blood samples for genetic testing are collected and banked, and genetic information will be shared once it is available.
+Biological and physiological measures are acquired, including blood pressure, pulse, weight, height, and BMI.  Blood and urine samples are taken and a complete blood count, acute care panel, hepatic panel, thyroid stimulating hormone, viral markers (HCV, HBV, HIV), c-reactive protein, creatine kinase, urine drug screen and urine pregnancy tests are performed.  In addition, three additional tubes of blood samples are collected and banked for future analysis, including genetic testing.
 
 ## Imaging Studies
 
@@ -47,7 +47,7 @@ Participants were given the option to enroll in optional magnetic resonance imag
 
 ### MRI
 
-The MRI protocol used was initially based on the ADNI-3 basic protocol, but was later modified to include portions of the ABCD protocol in the following manner:
+On the same visit as the MRI scan, participants are administered a subset of tasks from the NIH Toolbox Cognition Battery. The four tasks asses attention and executive functioning (Flanker Inhibitory Control and Attention Task), executive functioning (Dimensional Change Card Sort Task), episodic memory (Picture Sequence Memory Task), and working memory (List Sorting Working Memory Task). The MRI protocol used was initially based on the ADNI-3 basic protocol, but was later modified to include portions of the ABCD protocol in the following manner:
 
 1. The T1 scan from ADNI3 was replaced by the T1 scan from the ABCD protocol.
 2. The Axial T2 2D FLAIR acquisition from ADNI2 was added, and fat saturation turned on.
@@ -64,7 +64,10 @@ The optional MEG studies were added to the protocol approximately one year after
 
 ## Specific Survey and Test Data within Data Set
 
+**NOTE:** In the release 2.0 of the dataset, two measures Brief Trauma Questionnaire (BTQ) and Big Five personality survey were added to the online screening questionnaires. Also, for the in-person screening visit, the Beck Anxiety Inventory (BAI) and Beck Depression Inventory-II (BDI-II) were replaced with the General Anxiety Disorder-7 (GAD7) and Patient Health Questionnaire 9 (PHQ9) surveys, respectively.  The Perceived Health rating survey was discontinued. 
+
 ### 1. Preliminary Online Screening Questionnaires
+
 
 |  Survey or Test                                                             |  BIDS TSV Name                 |
 | --------------------------------------------------------------------------- | ------------------------------ |
@@ -90,7 +93,6 @@ The optional MEG studies were added to the protocol approximately one year after
 |  Family Interview for Genetic Studies (FIGS)                                                 |  figs.tsv                     |
 |  General Anxiety Disorder-7 (GAD7)                                                           |  gad7.tsv                     |
 |  Kaufman Brief Intelligence Test 2nd Edition (KBIT-2) and Vocabulary Assessment Scale (VAS)  |  kbit2_vas.tsv                |
-|  NIH Toolbox Cognition Battery                                                               |  nih_toolbox.tsv              |
 |  Patient Health Questionnaire 9                                                              |  phq9.tsv                     |
 |  Perceived Health Rating                                                                     |  perceived_health_rating.tsv  |
 |  Satisfaction Survey                                                                         |  satisfaction.tsv             |
@@ -112,9 +114,10 @@ The optional MEG studies were added to the protocol approximately one year after
 
 ### 3. Optional On-Campus In-Person MRI Visit
 
-|  Survey         |  BIDS TSV Name      |
-| --------------- | ------------------- |
-|  MRI Variables  |  mri_variables.tsv  |
+|  Survey                        |  BIDS TSV Name      |
+| ------------------------------ | ------------------- |
+|  MRI Variables                 |  mri_variables.tsv  |
+|  NIH Toolbox Cognition Battery |  nih_toolbox.tsv    |
 
 
 ## Preparation Notes
