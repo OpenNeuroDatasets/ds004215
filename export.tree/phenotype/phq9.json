@@ -1,0 +1,117 @@
+{
+  "participant_id": {
+    "Description": "OpenNeuro ID of the subject."
+  },
+  "visit": {
+    "Description": "Type of in-person visit.",
+    "Levels": {
+      "online screening": "First online screening visit.",
+      "online follow-up": "Online follow-up visit after 1 year of first in-person visit.",
+      "re-eval online screening": "Second online screening visit.",
+      "re-eval online follow": "Online follow-up visit after 1 year of second in-person visit."
+    }
+  },
+  "age_at_visit": {
+    "Description": "Age of the participant at the time of visit."
+  },
+  "LITTLE_INTEREST": {
+    "LongName": "LITTLE_INTEREST (question ID 10365)",
+    "Description": "a. Little interest or pleasure in doing things",
+    "Levels": {
+      "0": "Not at all",
+      "1": "Several days",
+      "2": "More than half the days",
+      "3": "Nearly every day"
+    }
+  },
+  "FEELING_DOWN": {
+    "LongName": "FEELING_DOWN (question ID 10366)",
+    "Description": "b. Feeling down, depressed, or hopeless",
+    "Levels": {
+      "0": "Not at all",
+      "1": "Several days",
+      "2": "More than half the days",
+      "3": "Nearly every day"
+    }
+  },
+  "TROUBLE_SLEEPING": {
+    "LongName": "TROUBLE_SLEEPING (question ID 10367)",
+    "Description": "c. Trouble falling/staying asleep, sleeping too much ",
+    "Levels": {
+      "0": "Not at all",
+      "1": "Several days",
+      "2": "More than half the days",
+      "3": "Nearly every day"
+    }
+  },
+  "FEELING_TIRED": {
+    "LongName": "FEELING_TIRED (question ID 10368)",
+    "Description": "d. Feeling tired or having little energy",
+    "Levels": {
+      "0": "Not at all",
+      "1": "Several days",
+      "2": "More than half the days",
+      "3": "Nearly every day"
+    }
+  },
+  "POOR_APPETITE": {
+    "LongName": "POOR_APPETITE (question ID 10369)",
+    "Description": "e. Poor appetite or overeating",
+    "Levels": {
+      "0": "Not at all",
+      "1": "Several days",
+      "2": "More than half the days",
+      "3": "Nearly every day"
+    }
+  },
+  "FEELING_BAD": {
+    "LongName": "FEELING_BAD (question ID 10370)",
+    "Description": "f. Feeling bad about yourself or that you are a failure or have let yourself or your family down",
+    "Levels": {
+      "0": "Not at all",
+      "1": "Several days",
+      "2": "More than half the days",
+      "3": "Nearly every day"
+    }
+  },
+  "TROUBLE_CONCENTRATING": {
+    "LongName": "TROUBLE_CONCENTRATING (question ID 10371)",
+    "Description": "g. Trouble concentrating on things, such as reading the newspaper or watching television",
+    "Levels": {
+      "0": "Not at all",
+      "1": "Several days",
+      "2": "More than half the days",
+      "3": "Nearly every day"
+    }
+  },
+  "MOVING_OR_SPEAKING": {
+    "LongName": "MOVING_OR_SPEAKING (question ID 10372)",
+    "Description": "h. Moving or speaking so slowly that other people could have noticed. Or the opposite--being so fidgety or restless that you have been moving around a lot more than usual",
+    "Levels": {
+      "0": "Not at all",
+      "1": "Several days",
+      "2": "More than half the days",
+      "3": "Nearly every day"
+    }
+  },
+  "BETTER_OFF_DEAD": {
+    "LongName": "BETTER_OFF_DEAD (question ID 10373)",
+    "Description": "i. Thoughts that you would be better off dead or of hurting yourself in some way",
+    "Levels": {
+      "0": "Not at all",
+      "1": "Several days",
+      "2": "More than half the days",
+      "3": "Nearly every day"
+    }
+  },
+  "ANY_PROB_HOW_DIFF_DO_ACT": {
+    "LongName": "ANY_PROB_HOW_DIFF_DO_ACT (question ID 20635)",
+    "Description": "2. If you checked off any problems on this questionnaire so far, how difficult have these problems made it for you to do your work, take care of things at home, or get along with other people?",
+    "Levels": {
+      "0": "Not difficult at all",
+      "1": "Somewhat difficult",
+      "2": "Very difficult",
+      "3": "Extremely difficult"
+    }
+  }
+}

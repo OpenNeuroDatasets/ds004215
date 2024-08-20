@@ -1,0 +1,15 @@
+{
+  "participant_id": {
+    "Description": "OpenNeuro ID of the subject."
+  },
+  "visit": {
+    "Description": "Type of in-person visit.",
+    "Levels": {
+      "baseline": "First in-person visit.",
+      "re-evaluation": "Second in-person visit."
+    }
+  },
+  "RPR SYPHILIS SERO TITER": {
+    "Units": "TITER"
+  }
+}

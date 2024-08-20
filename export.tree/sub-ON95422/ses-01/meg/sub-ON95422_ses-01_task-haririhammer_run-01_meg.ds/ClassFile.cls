@@ -1,0 +1,1 @@
+../../../../.git/annex/objects/KX/7F/SHA256E-s306--ff4509952ff005edde1ee8000fdf8da216e9d6206ef277ad58d93bc8e7c4fadf.cls/SHA256E-s306--ff4509952ff005edde1ee8000fdf8da216e9d6206ef277ad58d93bc8e7c4fadf.cls

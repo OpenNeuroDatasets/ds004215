@@ -1,0 +1,72 @@
+{
+    "Modality": "MR",
+    "MagneticFieldStrength": 3,
+    "ImagingFrequency": 127.697,
+    "Manufacturer": "GE",
+    "ManufacturersModelName": "DISCOVERY MR750",
+    "InstitutionName": "NIH FMRIF",
+    "DeviceSerialNumber": "000301496MR3T6MR",
+    "StationName": "fmrif3tb",
+    "BodyPartExamined": "BRAIN",
+    "PatientPosition": "HFS",
+    "ProcedureStepDescription": "MRI BRAIN",
+    "SoftwareVersions": "27\\LX\\MR Software release:DV26.0_R01_1725.a",
+    "MRAcquisitionType": "3D",
+    "SeriesDescription": "Anat T1w MP-RAGE 1mm (ABCD)",
+    "ProtocolName": "ADNI3 FMRIF Enhanced Pro",
+    "ScanningSequence": "RM",
+    "SequenceVariant": "NONE",
+    "ScanOptions": "EDR_GEMS\\FILTERED_GEMS\\ACC_GEMS\\IR_GEMS",
+    "ImageType": [
+        "ORIGINAL",
+        "PRIMARY",
+        "OTHER"
+    ],
+    "SeriesNumber": 3,
+    "AcquisitionTime": "14:11:29.000000",
+    "AcquisitionNumber": 1,
+    "SliceThickness": 1,
+    "SpacingBetweenSlices": 1,
+    "SAR": 0.054581,
+    "EchoTime": 0.00294,
+    "RepetitionTime": 0.00668,
+    "InversionTime": 1.06,
+    "FlipAngle": 8,
+    "CoilString": "32Ch Head",
+    "PercentPhaseFOV": 100,
+    "PercentSampling": 100,
+    "AcquisitionMatrixPE": 256,
+    "ReconMatrixPE": 256,
+    "ParallelReductionFactorInPlane": 2,
+    "ParallelReductionOutOfPlane": 2,
+    "PixelBandwidth": 244.141,
+    "ImageOrientationPatientDICOM": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        -1
+    ],
+    "InPlanePhaseEncodingDirectionDICOM": "ROW",
+    "ConversionSoftware": "dcm2niix",
+    "ConversionSoftwareVersion": "v1.0.20211006",
+    "Dcm2bidsVersion": "2.1.6",
+    "AnatomicalLandmarkCoordinates": {
+        "NAS": [
+            100.99999953515625,
+            215.9999970703125,
+            144.0
+        ],
+        "LPA": [
+            34.99999853515625,
+            137.9999970703125,
+            99.0
+        ],
+        "RPA": [
+            176.99999853515624,
+            140.9999970703125,
+            104.0
+        ]
+    }
+}
