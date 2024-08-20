@@ -1,3 +1,5 @@
+2.0.1 2024-08-20
+  - Age rounded from float to integer for sub-ON64412 in `participants.tsv`
 2.0.0 2024-08-20
   - This release includes data collected between 2020-06-03 (cut-off date for v1.0.0) and 2024-04-01. Notable changes in this release:
   - 769 new participants have been added along with re-evaluation data for 15 participants. Total unique participants count is now 1859.
