@@ -1,0 +1,36 @@
+{
+  "participant_id": {
+    "Description": "OpenNeuro ID of the subject."
+  },
+  "visit": {
+    "Description": "Type of in-person visit.",
+    "Levels": {
+      "baseline": "First in-person visit.",
+      "re-evaluation": "Second in-person visit."
+    }
+  },
+  "age_at_visit": {
+    "Description": "Age of the participant at the time of visit."
+  },
+  "AMPHETAMINES, URINE": {
+    "Units": "URINE"
+  },
+  "BENZODIAZEPINE, URINE": {
+    "Units": "URINE"
+  },
+  "CANNABINOIDS (THC), URINE": {
+    "Units": "URINE"
+  },
+  "COCAINE METABOLITES, URINE": {
+    "Units": "URINE"
+  },
+  "ETHANOL, QUALITATIVE, URINE": {
+    "Units": "URINE"
+  },
+  "OPIATES, URINE": {
+    "Units": "URINE"
+  },
+  "PREGNANCY, URINE": {
+    "Units": "URINE"
+  }
+}

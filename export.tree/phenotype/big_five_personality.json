@@ -1,0 +1,126 @@
+{
+  "participant_id": {
+    "Description": "Unique participant identifier."
+  },
+  "visit": {
+    "Description": "Type of in-person visit.",
+    "Levels": {
+      "online screening": "First online screening visit.",
+      "online follow-up": "Online follow-up visit after 1 year of first in-person visit.",
+      "re-eval online screening": "Second online screening visit.",
+      "re-eval online follow-up": "Online follow-up visit after 1 year of second in-person visit."
+    }
+  },
+  "age_at_visit": {
+    "Description": "Age of the participant at the time of visit."
+  },
+  "BFIN1": {
+    "Description": "1.  ...is reserved",
+    "Levels": {
+      "1": "Disagree strongly",
+      "2": "Disagree a little",
+      "3": "Neither agree nor disagree",
+      "4": "Agree a little",
+      "5": "Agree strongly",
+      "-999": "Unanswered"
+    }
+  },
+  "BFIN2": {
+    "Description": "2. ...is generally trusting",
+    "Levels": {
+      "1": "Disagree strongly",
+      "2": "Disagree a little",
+      "3": "Neither agree nor disagree",
+      "4": "Agree a little",
+      "5": "Agree strongly",
+      "-999": "Unanswered"
+    }
+  },
+  "BFIN3": {
+    "Description": "3. ...tends to be lazy",
+    "Levels": {
+      "1": "Disagree strongly",
+      "2": "Disagree a little",
+      "3": "Neither agree nor disagree",
+      "4": "Agree a little",
+      "5": "Agree strongly",
+      "-999": "Unanswered"
+    }
+  },
+  "BFIN4": {
+    "Description": "4. ...is relaxed, handles stress well",
+    "Levels": {
+      "1": "Disagree strongly",
+      "2": "Disagree a little",
+      "3": "Neither agree nor disagree",
+      "4": "Agree a little",
+      "5": "Agree strongly"
+    }
+  },
+  "BFIN5": {
+    "Description": "5. ...has few artistic interests",
+    "Levels": {
+      "1": "Disagree strongly",
+      "2": "Disagree a little",
+      "3": "Neither agree nor disagree",
+      "4": "Agree a little",
+      "5": "Agree strongly",
+      "-999": "Unanswered"
+    }
+  },
+  "BFIN6": {
+    "Description": "6. ... is outgoing, sociable",
+    "Levels": {
+      "1": "Disagree strongly",
+      "2": "Disagree a little",
+      "3": "Neither agree nor disagree",
+      "4": "Agree a little",
+      "5": "Agree strongly",
+      "-999": "Unanswered"
+    }
+  },
+  "BFIN7": {
+    "Description": "7. ...tends to find fault with others",
+    "Levels": {
+      "1": "Disagree strongly",
+      "2": "Disagree a little",
+      "3": "Neither agree nor disagree",
+      "4": "Agree a little",
+      "5": "Agree strongly",
+      "-999": "Unanswered"
+    }
+  },
+  "BFIN8": {
+    "Description": "8. ...does a thorough job",
+    "Levels": {
+      "1": "Disagree strongly",
+      "2": "Disagree a little",
+      "3": "Neither agree nor disagree",
+      "4": "Agree a little",
+      "5": "Agree strongly",
+      "-999": "Unanswered"
+    }
+  },
+  "BFIN9": {
+    "Description": "9. ...gets nervous easily",
+    "Levels": {
+      "1": "Disagree strongly",
+      "2": "Disagree a little",
+      "3": "Neither agree nor disagree",
+      "4": "Agree a little",
+      "5": "Agree strongly",
+      "-999": "Unanswered"
+    }
+  },
+  "BFIN10": {
+    "Description": "10. ...has an active imagination",
+    "Levels": {
+      "1": "Disagree strongly",
+      "2": "Disagree a little",
+      "3": "Neither agree nor disagree",
+      "4": "Agree a little",
+      "5": "Agree strongly",
+      "-999": "Unanswered"
+    }
+  }
+}

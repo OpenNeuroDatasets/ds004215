@@ -1,0 +1,1 @@
+../../../../.git/annex/objects/6V/Xp/SHA256E-s299--d1dac12a42cf6df0cf7f823b9cb75f6d50d161c9031f6e8d8f3464da6ee1dccc.cls/SHA256E-s299--d1dac12a42cf6df0cf7f823b9cb75f6d50d161c9031f6e8d8f3464da6ee1dccc.cls

@@ -1,0 +1,26 @@
+{
+    "TaskName": "EmptyRoom6m",
+    "Manufacturer": "CTF",
+    "PowerLineFrequency": 60.0,
+    "SamplingFrequency": 4800.0,
+    "SoftwareFilters": {
+        "SpatialCompensation": {
+            "GradientOrder": 3
+        }
+    },
+    "RecordingDuration": 359.9997916666667,
+    "RecordingType": "continuous",
+    "DewarPosition": "n/a",
+    "DigitizedLandmarks": true,
+    "DigitizedHeadPoints": false,
+    "MEGChannelCount": 271,
+    "MEGREFChannelCount": 28,
+    "ContinuousHeadLocalization": false,
+    "HeadCoilFrequency": [],
+    "EEGChannelCount": 0,
+    "EOGChannelCount": 0,
+    "ECGChannelCount": 0,
+    "EMGChannelCount": 0,
+    "MiscChannelCount": 5,
+    "TriggerChannelCount": 0
+}

@@ -1,0 +1,1 @@
+../../../../.git/annex/objects/MW/PP/SHA256E-s299--c0ad144bbfca20d6cafc6eb43d4566b25772bfab87cb2a98fec452851b9a32e9.cls/SHA256E-s299--c0ad144bbfca20d6cafc6eb43d4566b25772bfab87cb2a98fec452851b9a32e9.cls

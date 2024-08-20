@@ -1,0 +1,1 @@
+../../../../.git/annex/objects/KV/jp/SHA256E-s298--e6fee2853c482781ed049d9b4b4d1e5c9e011c7cdcab3d4f50d14ae4571d9687.cls/SHA256E-s298--e6fee2853c482781ed049d9b4b4d1e5c9e011c7cdcab3d4f50d14ae4571d9687.cls
