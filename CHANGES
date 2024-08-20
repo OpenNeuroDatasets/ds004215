@@ -1,16 +1,16 @@
-2.0.0 2024-07-15
-  This release includes data collected between 2020-06-03 (cut-off date for v1.0.0) and 2024-04-01. Notable changes in this release:
-  - 769 new participants have been added along with re-evaluation data for 15 participants. Total unique participants count is now 1859.  
+2.0.0 2024-08-20
+  - This release includes data collected between 2020-06-03 (cut-off date for v1.0.0) and 2024-04-01. Notable changes in this release:
+  - 769 new participants have been added along with re-evaluation data for 15 participants. Total unique participants count is now 1859.
   - `visit` and `age_at_visit` columns added to phenotype files to distinguish between visits and intervals between them.
   - Follow-up online survey data included.
   - Replaced Beck Anxiety Inventory (BAI) and Beck Depression Inventory-II (BDI-II) with General Anxiety Disorder-7 (GAD7) and Patient Health Questionnaire 9 (PHQ9) surveys, respectively.
   - Discontinued the Perceived Health rating survey.
   - Added Brief Trauma Questionnaire (BTQ) and Big Five personality survey to online screening questionnaires.
   - MRI:
-    - Replaced ADNI-3 resting state sequence with a multi-echo sequence with higher spatial resolution.
-    - Replaced field map scans with a shorter reversed-blipped EPI scan.
+  - Replaced ADNI-3 resting state sequence with a multi-echo sequence with higher spatial resolution.
+  - Replaced field map scans with a shorter reversed-blipped EPI scan.
   - MEG:
-    - Some participants have 6-minute empty room data instead of the shorter duration empty room acquisition.
+  - Some participants have 6-minute empty room data instead of the shorter duration empty room acquisition.
 1.0.3 2023-11-28
   - Fixing metadata formatting issues
 1.0.2 2023-01-19
