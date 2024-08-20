@@ -1,0 +1,1 @@
+../../../../.git/annex/objects/PQ/kG/SHA256E-s298--7a3ff7550a5a75e430cbad5b4caf4c015e1964438f4d2784aa5032190ce6441e.cls/SHA256E-s298--7a3ff7550a5a75e430cbad5b4caf4c015e1964438f4d2784aa5032190ce6441e.cls

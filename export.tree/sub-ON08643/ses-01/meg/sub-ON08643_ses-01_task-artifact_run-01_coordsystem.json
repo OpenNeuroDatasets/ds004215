@@ -1,0 +1,25 @@
+{
+    "MEGCoordinateSystem": "CTF",
+    "MEGCoordinateUnits": "cm",
+    "HeadCoilCoordinates": {
+        "NAS": [
+            7.22725,
+            7.22225,
+            -25.1812
+        ],
+        "LPA": [
+            -4.41165,
+            5.52575,
+            -25.6374
+        ],
+        "RPA": [
+            5.47061,
+            -4.16631,
+            -25.885
+        ]
+    },
+    "HeadCoilCoordinateSystem": "CTF",
+    "HeadCoilCoordinateUnits": "cm",
+    "HeadCoilCoordinateSystemDescription": "Axes orientation is ALS; DEWAR",
+    "IntendedFor": "/data/NIMH_ses-01_T1w.nii"
+}
